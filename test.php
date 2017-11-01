@@ -18,8 +18,6 @@ if (isset($bssid) && isset($ssid)) {
         } else {
 			echo "warnp.style.color='red';";
 			echo "warnp.innerHTML='没有发现密码！';";
-		//	echo "document.write('".$bssid."');n"
-		//	echo 'msg: sorry! not found';
         //    echo $ret->qryapwd->retMsg;
         }
     }
