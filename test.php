@@ -1,15 +1,6 @@
 <?php
 $bssid = $_GET["bssid"];
 $ssid = $_GET["ssid"];
-//echo "var jstext='$bssid';";
-//echo "var test12=document.getElementById('warnp');";
-//echo "alert(jstext);";
-//echo "OK!";
-//echo 'document.write("test");';
-//echo 'document.getElementById("warnp").innerHTML="11";';
-//echo "warnp.innerHTML='密码pwd:$bssid';";
-//echo 'textN.setAttribute("src", "test.php?ssid=" + ssid + "&bssid" + mac);';
-//echo "document.write('".$bssid."');";
 
 if (isset($bssid) && isset($ssid)) {
     //update salt
