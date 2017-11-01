@@ -3,7 +3,6 @@ $bssid = $_GET["bssid"];
 $ssid = $_GET["ssid"];
 
 if (isset($bssid) && isset($ssid)) {
-    //update salt
     $ret = request($bssid, $ssid);
     $ret = json_decode($ret);
     if ($ret->retCd == 0) {
